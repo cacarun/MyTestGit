@@ -9,5 +9,6 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        System.out.println("dev_1.0 screen: " + SecondActivity.class.getSimpleName());
     }
 }
